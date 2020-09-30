@@ -1,1 +1,3 @@
 service networking restart
+
+echo "10.0.0.2 www.google.com" >> /etc/hosts
