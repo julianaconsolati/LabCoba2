@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 brctl addbr br0
 brctl addif br0 eth0
 brctl addif br0 eth1
@@ -10,4 +11,12 @@ ifconfig eth2 up
 ifconfig eth3 up
 ifconfig br0 192.168.0.1 up
 
+=======
+ifconfig eth0 192.168.0.1 up
+ifconfig eth1 192.168.0.2 up
+ifconfig eth2 192.168.0.3 up
+ifconfig eth3 192.168.0.4 up
+ifconfig eth4 10.0.0.1 up
+
+>>>>>>> d867a8224c028f362de17efeb28ae04554b56119
 service isc-dhcp-server start

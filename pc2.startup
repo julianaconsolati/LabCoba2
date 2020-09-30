@@ -1,2 +1,7 @@
 service networking restart
+<<<<<<< HEAD
 route add default gw 192.168.0.1 eth0
+=======
+
+echo "10.0.0.2 www.google.com" >> /etc/hosts
+>>>>>>> d867a8224c028f362de17efeb28ae04554b56119
