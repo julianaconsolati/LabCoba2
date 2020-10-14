@@ -2,3 +2,5 @@ ifconfig eth0 192.168.0.1 up
 ifconfig eth1 10.0.0.1 up
 
 service isc-dhcp-server start
+
+iptables -t nat -A POSTROUTING -s 192.168.0.0/24 -o eth1 -j SNAT --to 10.0.0.1
